@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(18, 18, 50);
+}
+
+h1 {
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 60px;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Boogaloo', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Gamja Flower', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'VT323', monospace;
+}
+
+.score,
+.level {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Boogaloo', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Gamja Flower', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'VT323', monospace;
+}
+
+
+.block {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.box {
+    width: 175px;
+    height: 175px;
+    border: 7px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.box span {
+    opacity: 0;
+}
+
+.pressed {
+    opacity: 0.7;
+    width: 173px;
+    height: 172px;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.firstRow,
+.secondRow {
+    display: flex;
+}
